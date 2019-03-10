@@ -265,7 +265,7 @@
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="eu.zawilski.SimpleSearch" />
       <module name="SimpleSearch" />
-      <option name="PROGRAM_PARAMETERS" value="html $PROJECT_DIR$/../ittam-server" />
+      <option name="PROGRAM_PARAMETERS" value="live HighViolet" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
