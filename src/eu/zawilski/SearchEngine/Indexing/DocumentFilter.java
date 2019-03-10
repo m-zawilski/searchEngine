@@ -5,7 +5,9 @@ import java.util.Arrays;
 class DocumentFilter {
     private char[] punctuationMarks = { '.', ',', ':', '"', '\'',
                                         '?', '!', ';', '(', ')',
-                                        '{', '}', '[', ']', '-'};
+                                        '{', '}', '[', ']', '-',
+                                        '=', '+', '*', '\\', '/',
+                                        '<', '>'};
 
     String basicFiltering(String input){
         input = input.toLowerCase();
