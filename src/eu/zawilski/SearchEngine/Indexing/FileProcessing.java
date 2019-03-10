@@ -66,7 +66,7 @@ public class FileProcessing {
             for (String term : documentTerms) {
                 List<Tuple> termPositions = invertedIndex.get(term);
                 if (termPositions == null) {
-                    termPositions = new LinkedList<Tuple>();
+                    termPositions = new LinkedList<>();
                     invertedIndex.put(term, termPositions);
                 }
                 termPositions.add(new Tuple(documentNumber, currentPosition));
