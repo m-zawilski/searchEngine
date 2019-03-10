@@ -13,10 +13,7 @@ public class SearchEngine {
     private Searching searching = new Searching();
     private List<String> searchResults = null;
 
-    public List<String> getResults(String[] args){
-        String term = args[0].toLowerCase();
-
-        String[] documents = Arrays.copyOfRange(args, 1, args.length);
+    public List<String> getResults(String term, String[] documents){
         documentProcessing.processDocuments(documents);
         Map<String, List<Tuple>> invertedIndex = documentProcessing.getInvertedIndex();
         List<Document> documentsData = documentProcessing.getDocumentsData();

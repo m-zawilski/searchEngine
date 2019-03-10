@@ -13,27 +13,27 @@ class SearchEngineTest {
     @Test
     void termFoundInAllDocumentsReturnsEmptyArray() {
         String termFoundInAllDocuments = "world";
-        String[] args = {termFoundInAllDocuments, firstDocument, secondDocument};
+        String[] documents = {firstDocument, secondDocument};
         SearchEngine searchEngine = new SearchEngine();
-        List<String> results = searchEngine.getResults(args);
+        List<String> results = searchEngine.getResults(termFoundInAllDocuments, documents);
         assertEquals(0, results.size());
     }
 
     @Test
     void termFoundInJustOneDocumentReturnsNonEmptyArray() {
-        String termFoundOnlyInFirstDocuments = "hello";
-        String[] args = {termFoundOnlyInFirstDocuments, firstDocument, secondDocument};
+        String termFoundOnlyInFirstDocument = "hello";
+        String[] documents = {firstDocument, secondDocument};
         SearchEngine searchEngine = new SearchEngine();
-        List<String> results = searchEngine.getResults(args);
+        List<String> results = searchEngine.getResults(termFoundOnlyInFirstDocument, documents);
         assertNotEquals(0, results.size());
     }
 
     @Test
     void termNotFoundResultsInNull() {
         String termNotFound = "goodbye";
-        String[] args = {termNotFound, firstDocument, secondDocument};
+        String[] documents = {firstDocument, secondDocument};
         SearchEngine searchEngine = new SearchEngine();
-        List<String> results = searchEngine.getResults(args);
+        List<String> results = searchEngine.getResults(termNotFound, documents);
         assertNull(results);
     }
 }

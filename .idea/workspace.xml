@@ -4,18 +4,17 @@
     <list default="true" id="3334b9ce-0f2d-4358-9b77-fa69dd1a91a8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CheckHighViolet.sh" beforeDir="false" afterPath="$PROJECT_DIR$/CheckHighViolet.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SimpleSearch/eu/zawilski/SearchEngine/Indexing/FileProcessingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SimpleSearch/eu/zawilski/SearchEngine/Indexing/FileProcessingTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Indexing/DocumentReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Indexing/DocumentReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Indexing/FileProcessing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleSearch/eu/zawilski/SearchEngine/Indexing/FileProcessing$Indexing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleSearch/eu/zawilski/SearchEngine/Indexing/FileProcessing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleSearch/eu/zawilski/SearchEngine/SearchEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleSearch/eu/zawilski/SearchEngine/SearchEngine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleSearch/eu/zawilski/SearchEngine/Searching/Searching.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleSearch/eu/zawilski/SearchEngine/Searching/Searching.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleSearch/eu/zawilski/SimpleSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleSearch/eu/zawilski/SimpleSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SimpleSearch/eu/zawilski/SearchEngine/Indexing/FileProcessingTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SimpleSearch/eu/zawilski/SearchEngine/SearchEngineTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SimpleSearch/eu/zawilski/SearchEngine/SearchEngineTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SimpleSearch/eu/zawilski/SearchEngine/TupleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SimpleSearch/eu/zawilski/SearchEngine/TupleTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/eu/zawilski/SearchEngine/SearchEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eu/zawilski/SearchEngine/SearchEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Searching/CalculateIDF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Searching/CalculateIDF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Searching/CalculateTF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Searching/CalculateTF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Searching/Searching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Searching/Searching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Tuple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Tuple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/eu/zawilski/SimpleSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eu/zawilski/SimpleSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/eu/zawilski/SearchEngine/Indexing/FileProcessingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/eu/zawilski/SearchEngine/Indexing/DocumentProcessingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/eu/zawilski/SearchEngine/SearchEngineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/eu/zawilski/SearchEngine/SearchEngineTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/eu/zawilski/SearchEngine/TupleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/eu/zawilski/SearchEngine/TupleTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,89 +28,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eu/zawilski/SimpleSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+            <state relative-caret-position="202">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/eu/zawilski/SearchEngine/TupleTest.java">
+        <entry file="file://$PROJECT_DIR$/src/eu/zawilski/ArgumentReader/ArgumentReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+            <state relative-caret-position="225">
+              <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/readerTestSample.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CheckHighViolet.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="80" lean-forward="true" selection-start-line="1" selection-start-column="80" selection-end-line="1" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/eu/zawilski/SearchEngine/SearchEngineTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Indexing/DocumentProcessing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Tuple.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Searching/Searching.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="20" column="86" selection-start-line="20" selection-start-column="86" selection-end-line="20" selection-end-column="86" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Indexing/Tokenizer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Indexing/DocumentReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Indexing/DocumentFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eu/zawilski/SearchEngine/SearchEngine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+            <state relative-caret-position="232">
+              <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -122,8 +76,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -146,8 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/eu/zawilski/SearchEngine/TupleTest.java" />
-        <option value="$PROJECT_DIR$/src/eu/zawilski/MainTest.java" />
         <option value="$PROJECT_DIR$/test/MainTest.java" />
         <option value="$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Searching/TFIDFScoring.java" />
         <option value="$PROJECT_DIR$/HighViolet/01_TerribleLove.txt" />
@@ -189,14 +141,16 @@
         <option value="$PROJECT_DIR$/test/eu/zawilski/SearchEngine/Indexing/FileProcessingTest.java" />
         <option value="$PROJECT_DIR$/test/eu/zawilski/SearchEngine/Indexing/DocumentReaderTest.java" />
         <option value="$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Searching/ScoringStrategy.java" />
-        <option value="$PROJECT_DIR$/CheckHighViolet.sh" />
         <option value="$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Indexing/DocumentReader.java" />
         <option value="$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Tuple.java" />
         <option value="$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Searching/Searching.java" />
-        <option value="$PROJECT_DIR$/src/eu/zawilski/SearchEngine/SearchEngine.java" />
-        <option value="$PROJECT_DIR$/src/eu/zawilski/SimpleSearch.java" />
         <option value="$PROJECT_DIR$/test/eu/zawilski/SearchEngine/TupleTest.java" />
+        <option value="$PROJECT_DIR$/src/eu/zawilski/SimpleSearch.java" />
         <option value="$PROJECT_DIR$/test/eu/zawilski/SearchEngine/SearchEngineTest.java" />
+        <option value="$PROJECT_DIR$/src/eu/zawilski/SearchEngine/SearchEngine.java" />
+        <option value="$PROJECT_DIR$/test/readerTestSample.txt" />
+        <option value="$PROJECT_DIR$/src/eu/zawilski/ArgumentReader/ArgumentReader.java" />
+        <option value="$PROJECT_DIR$/CheckHighViolet.sh" />
       </list>
     </option>
   </component>
@@ -211,6 +165,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,46 +174,10 @@
               <item name="SimpleSearch" type="b2602c69:ProjectViewProjectNode" />
               <item name="SimpleSearch" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SimpleSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimpleSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimpleSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimpleSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="zawilski" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimpleSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimpleSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="zawilski" type="462c0819:PsiDirectoryNode" />
-              <item name="SearchEngine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimpleSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimpleSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="zawilski" type="462c0819:PsiDirectoryNode" />
-              <item name="SearchEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="Indexing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimpleSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimpleSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="zawilski" type="462c0819:PsiDirectoryNode" />
-              <item name="SearchEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="Searching" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -267,7 +187,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552236057783" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552255791526" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -313,8 +233,7 @@
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="eu.zawilski.SimpleSearch" />
       <module name="SimpleSearch" />
-      <option name="PROGRAM_PARAMETERS" value="love 01_TerribleLove.txt 02_Sorrow.txt 03_AnyonesGhost.txt 04_LittleFaith.txt 05_AfraidOfEveryone.txt 06_BloodbuzzOhio.txt 07_Lemonworld.txt 08_Runaway.txt 09_Conversation16.txt 10_England.txt 11_VenderlyleCrybabyGeeks.txt" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HighViolet" />
+      <option name="PROGRAM_PARAMETERS" value="live HighViolet" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -353,7 +272,8 @@
       <workItem from="1552230968645" duration="371000" />
       <workItem from="1552231447298" duration="3000" />
       <workItem from="1552231482771" duration="181000" />
-      <workItem from="1552232194094" duration="1991000" />
+      <workItem from="1552232194094" duration="2132000" />
+      <workItem from="1552250851194" duration="4609000" />
     </task>
     <task id="LOCAL-00001" summary="'Configuration changes'">
       <created>1552231081243</created>
@@ -366,21 +286,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test - 2019.03.10 at 15h 47m 11s.xml">
-      <configuration name="Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test - 2019.03.10 at 15h 47m 27s.xml">
-      <configuration name="Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test - 2019.03.10 at 15h 47m 55s.xml">
-      <configuration name="Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test - 2019.03.10 at 15h 48m 39s.xml">
-      <configuration name="Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test - 2019.03.10 at 15h 51m 15s.xml">
-      <configuration name="Test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Test - 2019.03.10 at 15h 53m 22s.xml">
       <configuration name="Test" configurationId="JUnit" />
     </history-entry>
@@ -396,12 +301,27 @@
     <history-entry file="Test - 2019.03.10 at 17h 39m 15s.xml">
       <configuration name="Test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Test - 2019.03.10 at 21h 50m 15s.xml">
+      <configuration name="Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test - 2019.03.10 at 22h 37m 15s.xml">
+      <configuration name="Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test - 2019.03.10 at 22h 44m 32s.xml">
+      <configuration name="Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test - 2019.03.10 at 22h 45m 58s.xml">
+      <configuration name="Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test - 2019.03.10 at 22h 46m 54s.xml">
+      <configuration name="Test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57820000" />
+    <option name="totallyTimeSpent" value="62570000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="1440" height="798" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="798" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -409,19 +329,19 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20958512" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.21244635" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.4985694" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49570817" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" sideWeight="0.49427754" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5028612" side_tool="true" visible="true" weight="0.305949" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5035765" side_tool="true" weight="0.305949" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49713877" visible="true" weight="0.305949" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49642345" weight="0.305949" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.398017" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49928468" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49785408" weight="0.3286119" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="right" id="Theme Preview" order="0" />
@@ -517,9 +437,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="'Configuration changes'" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/eu/zawilski/Indexing/Indexing.java" />
-    <entry file="file://$PROJECT_DIR$/src/eu/zawilski/Query.java" />
-    <entry file="file://$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Indexing/DashTokenizer.java" />
     <entry file="file://$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Indexing/TokenizerDecorator.java" />
     <entry file="file://$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Indexing/StemmingTokenizer.java" />
     <entry file="file://$PROJECT_DIR$/src/eu/zawilski/SearchEngine/TupleTest.java" />
@@ -586,13 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/readerTestSample.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -751,13 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CheckHighViolet.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Indexing/Tokenizer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -765,66 +668,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Indexing/DocumentReader.java">
+    <entry file="file://$PROJECT_DIR$/test/eu/zawilski/SearchEngine/TupleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="330">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Indexing/DocumentFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Indexing/DocumentProcessing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" selection-start-line="9" selection-end-line="9" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Tuple.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Searching/Searching.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
+        <state relative-caret-position="300">
           <caret line="20" column="86" selection-start-line="20" selection-start-column="86" selection-end-line="20" selection-end-column="86" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eu/zawilski/SearchEngine/SearchEngine.java">
+    <entry file="file://$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Indexing/DocumentReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        <state relative-caret-position="225">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eu/zawilski/SimpleSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Indexing/DocumentFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+        <state relative-caret-position="540">
+          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/eu/zawilski/SearchEngine/TupleTest.java">
+    <entry file="file://$PROJECT_DIR$/src/eu/zawilski/SearchEngine/Indexing/DocumentProcessing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        <state relative-caret-position="300">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="3989" selection-start-line="3989" selection-end-line="3989" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/eu/zawilski/SearchEngine/SearchEngineTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+        <state relative-caret-position="232">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eu/zawilski/SearchEngine/SearchEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/readerTestSample.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eu/zawilski/ArgumentReader/ArgumentReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eu/zawilski/SimpleSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CheckHighViolet.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="80" lean-forward="true" selection-start-line="1" selection-start-column="80" selection-end-line="1" selection-end-column="80" />
         </state>
       </provider>
     </entry>
