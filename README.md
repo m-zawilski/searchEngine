@@ -1,13 +1,9 @@
 # Search Engine
 Simple search engine that searches for single terms in a list of documents using TF-IDF scoring. 
 
-Syntax: 
-
 `java eu.zawilski.SimpleSearch [term] [file]...`
 
-Attached script searches through The National's "High Violet" album lyrics. 
-
-Syntax: 
+Attached bash script searches through The National's "High Violet" album lyrics. 
 
 `bash CheckHighViolet.sh [term]`
 
