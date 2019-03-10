@@ -1,4 +1,4 @@
-# searchEngine
+# Search Engine
 Simple search engine that searches for single terms in a list of documents using TF-IDF scoring. 
 
 Syntax: 
