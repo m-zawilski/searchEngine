@@ -11,7 +11,7 @@ final class CalculateIDF {
     static double standard(List<Tuple> invertedIndex, int documentsCount){
         Set<Integer> inverseFrequency = new HashSet<>();
         for(Tuple tuple : invertedIndex){
-            inverseFrequency.add(tuple.getFileNumber());
+            inverseFrequency.add(tuple.getDocumentNumber());
         }
         double inverseFrequencyCounter = inverseFrequency.size();
         return (inverseFrequencyCounter != 0.0d) ? Math.log(documentsCount/inverseFrequencyCounter) : 0.0d;

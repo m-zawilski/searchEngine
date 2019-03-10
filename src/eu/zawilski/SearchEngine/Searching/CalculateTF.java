@@ -10,7 +10,7 @@ final class CalculateTF {
     static double standard(List<Tuple> invertedIndex, Document document){
         double frequencyCounter = 0.0d;
         for(Tuple tuple : invertedIndex){
-            if(tuple.getFileNumber() == document.getNumber()){
+            if(tuple.getDocumentNumber() == document.getNumber()){
                 frequencyCounter++;
             }
         }

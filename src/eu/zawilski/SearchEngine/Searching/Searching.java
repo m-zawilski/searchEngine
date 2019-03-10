@@ -18,7 +18,7 @@ public class Searching {
             throws IllegalArgumentException {
         List<Tuple> termInvertedIndex = invertedIndex.get(term);
         if (termInvertedIndex == null){
-            throw new IllegalArgumentException("The term was not found in any file.\n");
+            throw new IllegalArgumentException("The term was not found in any document.\n");
         }
         List<SearchResult> searchResults = scoringStrategy.getSearchResults(termInvertedIndex, documentsData);
         return convertToStringList(searchResults);

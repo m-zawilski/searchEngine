@@ -21,6 +21,6 @@ public class SimpleSearch {
     private static void printMessageNotEnoughArguments(){
         System.out.println("Please insert a proper argument list.");
         System.out.println("First argument - term for searching.");
-        System.out.println("Next arguments - files to search in.");
+        System.out.println("Next arguments - documents to search in.");
     }
 }

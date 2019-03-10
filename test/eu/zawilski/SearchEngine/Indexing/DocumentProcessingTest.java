@@ -12,29 +12,31 @@ import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class FileProcessingTest {
-    private FileProcessing fileProcessing;
+class DocumentProcessingTest {
+    private DocumentProcessing documentProcessing;
+    private String firstDocument = "test/tokenizeTestSample1.txt";
+    private String secondDocument = "test/tokenizeTestSample2.txt";
 
     @BeforeEach
     void setUp() {
-        fileProcessing = new FileProcessing();
+        documentProcessing = new DocumentProcessing();
     }
 
     @Test
     void addsDocumentsToDocumentsDataArray() {
-        String[] documents = {"test/tokenizeTestSample1.txt", "test/tokenizeTestSample2.txt"};
+        String[] documents = {firstDocument, secondDocument};
 
         List<Document> documentsData = new ArrayList<>();
-        documentsData.add(new Document(0, "test/tokenizeTestSample1.txt", 2));
-        documentsData.add(new Document(1, "test/tokenizeTestSample2.txt", 2));
+        documentsData.add(new Document(0, firstDocument, 2));
+        documentsData.add(new Document(1, secondDocument, 2));
 
-        fileProcessing.processDocuments(documents);
-        assertEquals(fileProcessing.getDocumentsData(), documentsData);
+        documentProcessing.processDocuments(documents);
+        assertEquals(documentProcessing.getDocumentsData(), documentsData);
     }
 
     @Test
     void addsTermsToInvertedIndex() {
-        String[] documents = {"test/tokenizeTestSample1.txt", "test/tokenizeTestSample2.txt"};
+        String[] documents = {firstDocument, secondDocument};
         Map<String, List<Tuple>> invertedIndex = new HashMap<>();
 
         List<Tuple> lazy = new ArrayList<>();
@@ -50,17 +52,17 @@ class FileProcessingTest {
         fox.add(new Tuple(1,1));
         invertedIndex.put("fox", fox);
 
-        fileProcessing.processDocuments(documents);
-        assertEquals(fileProcessing.getInvertedIndex(), invertedIndex);
+        documentProcessing.processDocuments(documents);
+        assertEquals(documentProcessing.getInvertedIndex(), invertedIndex);
     }
 
     @Test
     void getDocumentsData() {
-        assertDoesNotThrow(() -> fileProcessing.getDocumentsData());
+        assertDoesNotThrow(() -> documentProcessing.getDocumentsData());
     }
 
     @Test
     void getInvertedIndex() {
-        assertDoesNotThrow(() -> fileProcessing.getInvertedIndex());
+        assertDoesNotThrow(() -> documentProcessing.getInvertedIndex());
     }
 }

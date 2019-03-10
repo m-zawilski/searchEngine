@@ -7,7 +7,7 @@ import java.util.*;
 
 import eu.zawilski.SearchEngine.Document;
 
-public class FileProcessing {
+public class DocumentProcessing {
     private List<Document> documentsData = new ArrayList<>();
     private Map<String, List<Tuple>> invertedIndex = new HashMap<>();
 
@@ -79,7 +79,7 @@ public class FileProcessing {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        FileProcessing that = (FileProcessing) o;
+        DocumentProcessing that = (DocumentProcessing) o;
         return Objects.equals(documentsData, that.documentsData) &&
                 Objects.equals(invertedIndex, that.invertedIndex);
     }

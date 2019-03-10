@@ -7,22 +7,22 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 class SearchEngineTest {
-    private String firstFile = "test/resultsTestSample1.txt";
-    private String secondFile = "test/resultsTestSample2.txt";
+    private String firstDocument = "test/resultsTestSample1.txt";
+    private String secondDocument = "test/resultsTestSample2.txt";
 
     @Test
-    void termFoundInAllFilesReturnsEmptyArray() {
-        String termFoundInAllFiles = "world";
-        String[] args = {termFoundInAllFiles, firstFile, secondFile};
+    void termFoundInAllDocumentsReturnsEmptyArray() {
+        String termFoundInAllDocuments = "world";
+        String[] args = {termFoundInAllDocuments, firstDocument, secondDocument};
         SearchEngine searchEngine = new SearchEngine();
         List<String> results = searchEngine.getResults(args);
         assertEquals(0, results.size());
     }
 
     @Test
-    void termFoundInJustOneFileReturnsNonEmptyArray() {
-        String termFoundOnlyInFirstFile = "hello";
-        String[] args = {termFoundOnlyInFirstFile, firstFile, secondFile};
+    void termFoundInJustOneDocumentReturnsNonEmptyArray() {
+        String termFoundOnlyInFirstDocuments = "hello";
+        String[] args = {termFoundOnlyInFirstDocuments, firstDocument, secondDocument};
         SearchEngine searchEngine = new SearchEngine();
         List<String> results = searchEngine.getResults(args);
         assertNotEquals(0, results.size());
@@ -31,7 +31,7 @@ class SearchEngineTest {
     @Test
     void termNotFoundResultsInNull() {
         String termNotFound = "goodbye";
-        String[] args = {termNotFound, firstFile, secondFile};
+        String[] args = {termNotFound, firstDocument, secondDocument};
         SearchEngine searchEngine = new SearchEngine();
         List<String> results = searchEngine.getResults(args);
         assertNull(results);

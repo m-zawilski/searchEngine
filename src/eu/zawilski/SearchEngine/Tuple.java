@@ -3,19 +3,19 @@ package eu.zawilski.SearchEngine;
 import java.util.Objects;
 
 public class Tuple {
-    private int fileNumber;
+    private int documentNumber;
     private int termPosition;
 
-    public Tuple(int fileNumber, int termPosition){
-        if(fileNumber < 0 || termPosition < 0) {
+    public Tuple(int documentNumber, int termPosition){
+        if(documentNumber < 0 || termPosition < 0) {
             throw new IllegalArgumentException();
         }
-        this.fileNumber = fileNumber;
+        this.documentNumber = documentNumber;
         this.termPosition = termPosition;
     }
 
-    public int getFileNumber() {
-        return fileNumber;
+    public int getDocumentNumber() {
+        return documentNumber;
     }
 
     public int getTermPosition() {
@@ -27,12 +27,12 @@ public class Tuple {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Tuple tuple = (Tuple) o;
-        return fileNumber == tuple.fileNumber &&
+        return documentNumber == tuple.documentNumber &&
                 termPosition == tuple.termPosition;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(fileNumber, termPosition);
+        return Objects.hash(documentNumber, termPosition);
     }
 }
